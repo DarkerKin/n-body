@@ -1,2 +1,2 @@
 Simulation complete.
-Time elapsed: 0.000137542 seconds
+Time elapsed: 2.04603 seconds

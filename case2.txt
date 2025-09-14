@@ -1,0 +1,2 @@
+Simulation complete.
+Time elapsed: 0.397004 seconds
