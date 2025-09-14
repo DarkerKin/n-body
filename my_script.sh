@@ -9,9 +9,17 @@
 #load anaconda
 module load anaconda3/2023.09
 
-# Initialize conda
-source ~/miniconda3/etc/profile.d/conda.sh  # adjust path if needed
-conda activate myenv
+# create or activate conda environment
+if ! conda env list | grep -q "myenv"; then
+    echo "Creating conda environment..."
+    conda create -y -n myenv python=3.12
+    source activate myenv   
+    pip install --upgrade pip
+    pip install -r requirements.txt
+else
+    echo "Using existing conda environment..."
+    source activate myenv
+fi
 
 
 # Run the tests
