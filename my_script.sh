@@ -6,6 +6,9 @@
 #SBATCH --error=slurm-%j.err
 #SBATCH --mem=20G
 
+#load anaconda
+module load anaconda3/2023.09
+
 # Initialize conda
 source ~/miniconda3/etc/profile.d/conda.sh  # adjust path if needed
 conda activate myenv
