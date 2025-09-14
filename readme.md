@@ -9,5 +9,6 @@ to submit the job just use the this command
 
 ## to see the results
 
-you can see the results in the case-*.txt file for the time and you can see the pdf for the graphs. 
+you can see the results in the case-1.txt,case-2.txt,and case-3.txt file for the time and you can see the pdf for the graphs. 
+
 
